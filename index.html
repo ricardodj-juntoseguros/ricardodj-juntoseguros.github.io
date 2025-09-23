@@ -16,6 +16,11 @@
             new BlipChat()
                 .withAppKey('anVudG9zZWd1cm9zMTpkMTFhYjViZi00MGRlLTRiYTAtODc2MS1kZGFjZjc3ZGVlMmU=')
                 .withButton({"color":"#9000FF","icon":""})
+				.withAuth({
+       authType: BlipChat.DEV_AUTH,
+       userIdentity: '1234567',
+       userPassword: 'MTIzNDU2',
+  			})
                 .withCustomCommonUrl('https://juntoseguros.chat.blip.ai/')
 		.withAccount({
        fullName: 'Ricardo Doi Junior',
@@ -28,6 +33,7 @@
 </script>
 
 </html>
+
 
 
 
